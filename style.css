@@ -815,4 +815,325 @@ footer{
   text-align: center;
 }
 
+.footer-col-extra ul li{
+  align-items: center;
+}
+
+
+
+.new-nav{
+  display: none;
+}
+
+.new-nav.active{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.menu{
+  font-size: 2rem;
+  color: #6c55f9;
+}
+
+.text-h3{
+  text-align: center;
+}
+
+
+i.close{
+  display: none;
+}
+
+
+@media screen and (max-width: 1000px) {
+ 
+  .logos {
+    flex-wrap: wrap;
+  }
+
+}
+
+
+@media screen and (max-width: 800px) {
+ 
+  .logos {
+    flex-wrap: wrap;
+  }
+
+  .section-two-inside {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .custom-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .services-card {
+    flex-direction: column;
+  }
+
+  .section-four-inside{
+    flex-direction: column;
+  }
+
+  .section-two-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+
+  .choose-left{
+    margin-bottom: 40px;
+  }
+  
+
+  .project{
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .projects{
+    gap: 200px;
+    
+  }
+
+  .project-left{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  .project-right{
+    width: 100%;
+  }
+
+  .project-right img{
+    width: 100%;
+  }
+
+  .section-six-inside{
+    flex-direction: column-reverse;
+  }
+
+  .plan {
+    gap: 30px;
+  }
+
+  .testimonial-cards{
+    flex-direction: column;
+  }
+
+  .blogs{
+    flex-direction: column;
+  }
+
+.contact-box{
+  flex-direction: column;
+}
+
+
+form{
+  width: 100%;
+}
+
+.contact-left h3{
+  width: 100%;
+  text-align: center;
+}
+
+.contact-right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ /* .footer-upper{
+  flex-direction: column;
+} */
+
+.contact-list{
+  flex-direction: column;
+  margin-right: 0;
+}
+
+.footer-upper{
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  text-align: center;
+  justify-content: center ;
+}
+
+
+.foolter-col-1{
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.footer-col-extra ul {
+  align-items: center;
+  justify-content: center;
+}
+
+nav{
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+}
+
+@media screen and (max-width: 600px){
+
+  main{
+    margin-top: 20px;
+  }
+
+  .logos{
+    flex-direction: column;
+  }
+
+  .section-three{
+    margin-top: 80px;
+  }
+
+}
+
+@media screen and (max-width: 600px){
+
+  .choose-card {
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .arrow-box{
+    left: 37%;
+    top: 6%;
+  }
+  .section-two{
+    margin-top: 6rem;
+  }
+
+  .custom-text{
+    text-align: center;
+  }
+
+  main{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-left{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .section-one{
+    margin-top: 120px;
+  }
+
+
+  .blog-box-inside{
+    display: none;
+  }
+
+  
+  .nav{
+    display: none;
+  }
+
+  .new-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 15px;
+  }
+
+
+  .ul-list{
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav.active{
+    display: initial;
+    position: fixed;
+    background-color: #F5F6FA;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.close{
+  display: none;
+}
+
+.close.active{
+  display: initial;
+  font-size: 2rem;
+  color: #484848;
+  position: absolute;
+  top: 5%;
+  z-index: 10;
+  right: 10%;
+}
+
+.main-right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-right img{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.plan{
+  flex-direction: column;
+}
+
+.plan-col-2{
+  border: 0;
+}
+
+form .button{
+  width: 100%;
+}
+
+.main-left {
+  gap: 0;
+  margin-top:30px;
+}
+.main-h3{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+}
 
