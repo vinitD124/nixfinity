@@ -2,7 +2,7 @@
 
 :root {
   --primary-color: #6c55f9;
-  --text-one: #484848;
+  --text-one: #3d3c3c;
   --text-two: #6d6d6d;
   --bg-color: #f9f9f9;
 }
@@ -11,6 +11,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -63,6 +64,13 @@ h6 {
   justify-content: center;
   align-items: center;
 }
+
+
+.button:hover{
+  background-color: #5d46f3;
+  transition: all 0.1s ease-in;
+}
+
 p {
   color: var(--text-two);
   font-weight: 400;
@@ -150,12 +158,20 @@ nav ul {
 }
 
 .main-h3 {
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: var(--text-two);
 }
 
+
+.main-h4 {
+  font-size: 1.1rem;
+  color: var(--text-two);
+}
+
+
+
 .main-h1 {
-  font-size: 2.8rem;
+  font-size: 3rem;
   line-height: 3.5rem;
   font-weight: 600;
   position: relative;
@@ -178,7 +194,7 @@ main {
 }
 
 .main-left {
-  width: 42%;
+  width: 48%;
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -217,16 +233,16 @@ main {
 }
 
 .bg-text {
-  font-size: 4rem;
+  font-size: 5.1rem;
   color: #00000008;
 }
 
 .fg-text {
   position: absolute;
-  bottom: 10px;
+  bottom: 28px;
   font-weight: 500;
   color: var(--primary-color);
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 .section-two-inside {
@@ -249,8 +265,10 @@ main {
 }
 
 .about-para-text {
-  font-size: 0.85rem;
+  font-size: 1rem;
+  line-height: 24px;
   margin-top: 25px;
+  margin-bottom: 50px;
 }
 
 .button-round {
@@ -303,11 +321,13 @@ main {
 }
 
 .service-card p {
-  font-size: 0.93rem;
+  font-size: 1rem;
+  line-height: 24px;
 }
 
 .btn-view {
-  font-size: 1.08rem;
+  font-size: 1.2rem;
+  font-weight: 500;
 }
 
 .btn-view img {
@@ -341,6 +361,22 @@ main {
   align-items: center;
 }
 
+.choose-card-left img{
+  width: 100px;
+  height: 65px;
+  object-fit: contain;
+}
+
+.choose-card-right h3{
+  font-size: 1.4rem;
+}
+
+
+.choose-card-right p{
+  font-size: 1rem;
+  margin-top: 2px;
+}
+
 .section-five {
   margin-top: 140px;
 }
@@ -360,10 +396,11 @@ main {
 }
 
 .project button {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   display: flex;
   align-items: center;
   gap: 8px;
+  font-weight: 500;
 }
 
 .project-left {
@@ -372,6 +409,19 @@ main {
   align-items: flex-start;
   gap: 18px;
   flex-direction: column;
+}
+
+.project-left h3{
+  font-size: 1.6rem;
+  margin-bottom: -3px;
+}
+
+
+
+.project-left p{
+  font-size: 1rem;
+  line-height: 23px;
+  margin-bottom: 8px;
 }
 
 .section-six {
@@ -430,6 +480,11 @@ main {
   gap: 10px;
 }
 
+.about-heading-text{
+  margin-top: 5px;
+  line-height:1.4;
+}
+
 .plan-col-2 div {
   display: flex;
   align-items: center;
@@ -439,7 +494,7 @@ main {
 .plan-col-2 label {
   color: #6d6d6d;
   font-weight: 300;
-  font-size: 0.85rem;
+  font-size: 0.92rem;
 }
 
 .plan-col-2 input {
@@ -463,6 +518,7 @@ main {
 .testimonial-cards {
   display: flex;
   gap: 30px;
+  margin-top: 45px;
 }
 
 .testimonial-card {
@@ -475,8 +531,14 @@ main {
   align-items: flex-start;
   justify-content: space-between;
   padding-bottom: 25px;
+  margin-top: 10px;
 }
 
+.testimonial-card p{
+  font-size: 1rem;
+  width: 100%;
+  line-height: 24px;
+}
 
 .test-1{
   display: flex;
@@ -495,7 +557,7 @@ main {
 }
 
 .test-1 h3{
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   font-weight: 500;
 }
 
@@ -504,7 +566,17 @@ main {
 }
 
 .test-1 p{
-  font-size: 0.85rem;
+  font-size: 0.95rem;
+}
+.test-right{
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.test-right h3{
+  font-size: 1rem;
 }
 
 .arrow{
@@ -544,9 +616,9 @@ main {
 }
 
 .blog-h3{
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: 500;
-  width: 90%;
+  width: 100%;
   margin-bottom: 6px;
 }
 
@@ -636,11 +708,12 @@ main {
 }
 
 .contact-left h3{
-  font-size: 2rem;
-  width: 70%;
+  font-size: 2.3rem;
+  width: 80%;
   margin-top: 20px;
   font-weight: 500;
   line-height: 40px;
+  margin-bottom: 30px;
 }
 
 .contact-box{
@@ -654,7 +727,7 @@ main {
 }
 
 form{
-  width: 50%;
+  width: 60%;
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -668,7 +741,7 @@ form button{
 
 form input{
   border: 1px solid transparent;
-  padding: 10px 8px;
+  padding: 14px 8px;
   width: 100%;
   border-radius: 10px;
   outline: #6c55f9;
@@ -677,6 +750,7 @@ form input{
 
 input::placeholder{
   color: #b1b1b1;
+  font-size: 1rem;
 }
 
 textarea::placeholder{
@@ -725,6 +799,7 @@ footer{
   gap: 10px;
   justify-content: center;
   margin-right: 50px;
+  
 }
 
 
@@ -764,9 +839,13 @@ footer{
 }
 
 
+.footer-col-2 ul{
+  margin-top: 5px;
+}
 
 .footer-col-2 ul li{
   font-size: 0.7rem;
+  margin: 5px 0;
 }
 
 .footer-col-extra ul li{
@@ -782,17 +861,25 @@ footer{
 }
 
 
-.footer-col-3 input{
+.footer-col-3 input {
   border: 1px solid transparent;
-  padding: 10px 8px;
-  width: 100%;
+  padding: 18px 12px;
+  width: 205px;
   outline: #6c55f9;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  
+}
+.footer-col-3 input::placeholder{
+  font-size: 0.9rem;
 }
 
 .footer-col-3 button{
   background-color: #6c55f9;
   color: white;
-  padding: 4px 12px;
+  padding: 8px 12px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 .input-contact-box{
@@ -811,7 +898,7 @@ footer{
   border-top: 1px solid #484848; 
   padding-top: 10px;
   margin-top: 30px;
-  padding-top: 10px;
+  padding-top: 20px;
   text-align: center;
 }
 
@@ -1014,6 +1101,14 @@ nav{
 }
 
 @media screen and (max-width: 600px){
+
+  .blogs {
+    margin-top: 70px;
+  }
+
+  .section-five{
+    margin-top: 90px;
+  }
 
   .choose-card {
     width: 100%;
