@@ -1102,6 +1102,12 @@ nav{
 
 @media screen and (max-width: 600px){
 
+
+  .bg-text {
+    font-size: 3.5rem;
+    color: #00000008;
+}
+
   .blogs {
     margin-top: 70px;
   }
